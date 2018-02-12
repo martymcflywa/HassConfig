@@ -1,32 +1,40 @@
 living_amp_menu:
   sequence:
     - service: switch.turn_on
-      entity_id: switch.living_amp_menu
+      data:
+        entity_id: switch.living_amp_menu
 living_amp_vol_up:
   sequence:
     - service: switch.turn_on
-      entity_id: switch.living_amp_vol_up
+      data:
+        entity_id: switch.living_amp_vol_up
 living_amp_vol_down:
   sequence:
     - service: switch.turn_on
-      entity_id: switch.living_amp_vol_down
+      data:
+        entity_id: switch.living_amp_vol_down
 living_amp_cursor_left:
   sequence:
     - service: switch.turn_on
-      entity_id: switch.living_amp_cursor_left
+      data:
+        entity_id: switch.living_amp_cursor_left
 living_amp_cursor_right:
   sequence:
     - service: switch.turn_on
-      entity_id: switch.living_amp_cursor_right
+      data:
+        entity_id: switch.living_amp_cursor_right
 living_amp_mute:
   sequence:
     - service: switch.turn_on
-      entity_id: switch.living_amp_mute
+      data:
+        entity_id: switch.living_amp_mute
 living_amp_input:
   sequence:
     - service: switch.turn_on
-      entity_id: switch.living_amp_input
+      data:
+        entity_id: switch.living_amp_input
 living_amp_eq:
   sequence:
     - service: switch.turn_on
-      entity_id: switch.living_amp_eq
+      data:
+        entity_id: switch.living_amp_eq
