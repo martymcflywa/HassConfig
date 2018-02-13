@@ -2,12 +2,10 @@
 switch.living_tv_power:
   friendly_name: "Power"
   icon: mdi:power
-  assumed_state: false
 # Amp
 switch.living_amp_power:
   friendly_name: "Power"
   icon: mdi:power
-  assumed_state: false
 script.living_amp_vol_up:
   friendly_name: "Vol +"
   icon: mdi:volume-plus
@@ -36,7 +34,6 @@ script.living_amp_eq:
 switch.living_ac_power:
   friendly_name: "Power"
   icon: mdi:power
-  assumed_state: false
 script.living_ac_temp_up:
   friendly_name: "Temp +"
   icon: mdi:thermometer-lines
