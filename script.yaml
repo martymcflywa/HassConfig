@@ -1,8 +1,5 @@
 living_tv_power_off:
   sequence:
-    - service: switch.turn_off
-      data:
-        entity_id: switch.living_tv_power
     - condition: template
       value_template: >
         {% if is_state('switch.living_tv_power', 'on') %}
@@ -12,11 +9,11 @@ living_tv_power_off:
         {% else %}
           false
         {% endif %}
+    - service: homeassistant.turn_off
+      data:
+        entity_id: switch.living_tv_power
 living_amp_power_off:
   sequence:
-    - service: switch.turn_off
-      data:  
-        entity_id: switch.living_amp_power
     - condition: template
       value_template: >
         {% if is_state('switch.living_amp_power', 'on') %}
@@ -26,11 +23,11 @@ living_amp_power_off:
         {% else %}
           false
         {% endif %}
+    - service: homeassistant.turn_off
+      data:  
+        entity_id: switch.living_amp_power
 living_ac_power_on:
   sequence:
-    - service: switch.turn_on
-      data:
-        entity_id: switch.living_ac_power
     - condition: template
       value_template: >
         {% if is_state('switch.living_ac_power', 'off') %}
@@ -40,11 +37,11 @@ living_ac_power_on:
         {% else %}
           false
         {% endif %}
-living_ac_power_off:
-  sequence:
-    - service: switch.turn_off
+    - service: homeassistant.turn_on
       data:
         entity_id: switch.living_ac_power
+living_ac_power_off:
+  sequence:
     - condition: template
       value_template: >
         {% if is_state('switch.living_ac_power', 'on') %}
@@ -54,6 +51,9 @@ living_ac_power_off:
         {% else %}
           false
         {% endif %}
+    - service: homeassistant.turn_off
+      data:
+        entity_id: switch.living_ac_power
 living_amp_menu:
   sequence:
     - service: switch.broadlink_send_packet_rmliving_mcfly_net
