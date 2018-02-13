@@ -1,9 +1,11 @@
 living_tv_remote:
   name: "TV"
+  control: hidden
   entities:
     - switch.living_tv_power
 living_amp_remote:
   name: "Amp"
+  control: hidden
   entities:
     - switch.living_amp_power
     - script.living_amp_vol_up
@@ -16,6 +18,7 @@ living_amp_remote:
     - script.living_amp_cursor_right
 living_ac_remote:
   name: "AC"
+  control: hidden
   entities:
     - switch.living_ac_power
     - script.living_ac_temp_up
