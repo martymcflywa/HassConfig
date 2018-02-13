@@ -34,6 +34,9 @@ living_view:
   view: yes
   name: "Living"
   entities:
+    - switch.living_tv_power
+    - switch.living_amp_power
+    - switch.living_ac_power
     - group.living_tv_remote
     - group.living_amp_remote
     - group.living_ac_remote
