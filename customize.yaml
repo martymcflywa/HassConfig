@@ -1,0 +1,66 @@
+# TV
+switch.living_tv_power:
+  friendly_name: "Power"
+  icon: mdi:power
+  assumed_state: false
+# Amp
+switch.living_amp_power:
+  friendly_name: "Power"
+  icon: mdi:power
+  assumed_state: false
+script.living_amp_vol_up:
+  friendly_name: "Vol +"
+  icon: mdi:volume-plus
+script.living_amp_vol_down:
+  friendly_name: "Vol -"
+  icon: mdi:volume-minus
+script.living_amp_mute:
+  friendly_name: "Mute"
+  icon: mdi:volume-mute
+script.living_amp_input:
+  friendly_name: "Input"
+  icon: mdi:video-input-component
+script.living_amp_menu:
+  friendly_name: "Menu"
+  icon: mdi:menu
+script.living_amp_cursor_left:
+  friendly_name: "Left"
+  icon: mdi:arrow-left
+script.living_amp_cursor_right:
+  friendly_name: "Right"
+  icon: mdi:arrow-right
+script.living_amp_eq: 
+  friendly_name: "EQ"
+  icon: mdi:tune-vertical
+# AC
+switch.living_ac_power:
+  friendly_name: "Power"
+  icon: mdi:power
+  assumed_state: false
+script.living_ac_temp_up:
+  friendly_name: "Temp +"
+  icon: mdi:thermometer-lines
+script.living_ac_temp_down:
+  friendly_name: "Temp -"
+  icon: mdi:snowflake
+script.living_ac_mode:
+  friendly_name: "Mode"
+  icon: mdi:dip-switch
+script.living_ac_fan:
+  friendly_name: "Fan"
+  icon: mdi:fan
+script.living_ac_economy:
+  friendly_name: "Economy"
+  icon: mdi:currency-usd
+script.living_ac_energysaver:
+  friendly_name: "Energy Saver"
+  icon: mdi:pine-tree
+script.living_ac_swing:
+  friendly_name: "Swing"
+  icon: mdi:rotate-3d
+script.living_ac_set_horizontal:
+  friendly_name: "Horizontal"
+  icon: mdi:swap-horizontal
+script.living_ac_set_vertical:
+  friendly_name: "Vertical"
+  icon: mdi:swap-vertical

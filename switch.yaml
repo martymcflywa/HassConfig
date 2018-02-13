@@ -3,6 +3,11 @@
   mac: '78:0F:77:00:24:B1'
   type: rm_mini
   switches:
+    broadlink_wakeup:
+      # Fire 0x00 as a dummy code. This will wake up the broadlink device if it hasn't been used in ~6 hours.
+      friendly_name: "Broadlink Wakeup"
+      command_on: '================'
+      command_off: '================'
     living_tv_power:
       friendly_name: "TV Power"
       command_on: 'JgBGAJWSFTYUNhM3FBEUERQSExITEhM3EzcTNxQSExITEhMSEhMSExI4EjgTExITEjgSOBI4EzgSExITEjgSOBITExITExIADQUAAA=='

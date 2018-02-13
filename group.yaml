@@ -1,0 +1,39 @@
+living_tv_remote:
+  name: "TV"
+  control: hidden
+  entities:
+    - switch.living_tv_power
+living_amp_remote:
+  name: "Amp"
+  control: hidden
+  entities:
+    - switch.living_amp_power
+    - script.living_amp_vol_up
+    - script.living_amp_vol_up
+    - script.living_amp_mute
+    - script.living_amp_eq
+    - script.living_amp_input
+    - script.living_amp_menu
+    - script.living_amp_cursor_left
+    - script.living_amp_cursor_right
+living_ac_remote:
+  name: "AC"
+  control: hidden
+  entities:
+    - switch.living_ac_power
+    - script.living_ac_temp_up
+    - script.living_ac_temp_down
+    - script.living_ac_fan
+    - script.living_ac_economy
+    - script.living_ac_energysaver
+    - script.living_ac_mode
+    - script.living_ac_swing
+    - script.living_ac_set_horizontal
+    - script.living_ac_set_vertical
+living_view:
+  view: yes
+  name: Living
+  entites:
+    - group.living_tv_remote
+    - group.living_amp_remote
+    - group.living_ac_remote
