@@ -32,8 +32,9 @@ living_ac_remote:
     - script.living_ac_set_vertical
 living_view:
   view: yes
-  name: Living
-  entites:
+  name: "Living"
+  icon: mdi:television-classic
+  entities:
     - group.living_tv_remote
     - group.living_amp_remote
     - group.living_ac_remote
