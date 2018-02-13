@@ -1,3 +1,59 @@
+living_tv_power_off:
+  sequence:
+    - service: switch.turn_off
+      data:
+        entity_id: switch.living_tv_power
+    - condition: template
+      value_template: >
+        {% if is_state('switch.living_tv_power', 'on') %}
+          true
+        {% elif is_state('switch.living_tv_power', 'off') %}
+          false
+        {% else %}
+          false
+        {% endif %}
+living_amp_power_off:
+  sequence:
+    - service: switch.turn_off
+      data:  
+        entity_id: switch.living_amp_power
+    - condition: template
+      value_template: >
+        {% if is_state('switch.living_amp_power', 'on') %}
+          true
+        {% elif is_state('switch.living_amp_power', 'off') %}
+          false
+        {% else %}
+          false
+        {% endif %}
+living_ac_power_on:
+  sequence:
+    - service: switch.turn_on
+      data:
+        entity_id: switch.living_ac_power
+    - condition: template
+      value_template: >
+        {% if is_state('switch.living_ac_power', 'off') %}
+          true
+        {% elif is_state('switch.living_ac_power', 'on') %}
+          false
+        {% else %}
+          false
+        {% endif %}
+living_ac_power_off:
+  sequence:
+    - service: switch.turn_off
+      data:
+        entity_id: switch.living_ac_power
+    - condition: template
+      value_template: >
+        {% if is_state('switch.living_ac_power', 'on') %}
+          true
+        {% elif is_state('switch.living_ac_power', 'off') %}
+          false
+        {% else %}
+          false
+        {% endif %}
 living_amp_menu:
   sequence:
     - service: switch.broadlink_send_packet_rmliving_mcfly_net
