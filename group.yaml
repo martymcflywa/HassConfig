@@ -1,15 +1,13 @@
 living_tv_remote:
   name: "TV"
-  control: hidden
   entities:
     - switch.living_tv_power
 living_amp_remote:
   name: "Amp"
-  control: hidden
   entities:
     - switch.living_amp_power
     - script.living_amp_vol_up
-    - script.living_amp_vol_up
+    - script.living_amp_vol_down
     - script.living_amp_mute
     - script.living_amp_eq
     - script.living_amp_input
@@ -18,7 +16,6 @@ living_amp_remote:
     - script.living_amp_cursor_right
 living_ac_remote:
   name: "AC"
-  control: hidden
   entities:
     - switch.living_ac_power
     - script.living_ac_temp_up
@@ -33,7 +30,6 @@ living_ac_remote:
 living_view:
   view: yes
   name: "Living"
-  icon: mdi:television-classic
   entities:
     - group.living_tv_remote
     - group.living_amp_remote
