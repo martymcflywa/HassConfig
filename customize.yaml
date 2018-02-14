@@ -64,3 +64,38 @@ script.living_ac_set_horizontal:
 script.living_ac_set_vertical:
   friendly_name: "Vertical"
   icon: mdi:swap-vertical
+# Hide switches
+switch.living_ac_economy:
+  hidden: true
+switch.living_ac_energysaver:
+  hidden: true
+switch.living_ac_fan:
+  hidden: true
+switch.living_ac_mode:
+  hidden: true
+switch.living_ac_set_horizontal:
+  hidden: true
+switch.living_ac_set_vertical:
+  hidden: true
+switch.living_ac_swing:
+  hidden: true
+switch.living_ac_temp_up:
+  hidden: true
+switch.living_ac_temp_down:
+  hidden: true
+switch.living_amp_cursor_left:
+  hidden: true
+switch.living_amp_cursor_right:
+  hidden: true
+switch.living_amp_eq:
+  hidden: true
+switch.living_amp_input:
+  hidden: true
+switch.living_amp_menu:
+  hidden: true
+switch.living_amp_mute:
+  hidden: true
+switch.living_amp_vol_down:
+  hidden: true
+switch.living_amp_vol_up:
+  hidden: true
