@@ -1,10 +1,11 @@
+# Living
 living_tv_remote:
-  name: "TV"
+  name: "Living TV"
   control: hidden
   entities:
     - switch.living_tv_power
 living_amp_remote:
-  name: "Amp"
+  name: "Living Amp"
   control: hidden
   entities:
     - switch.living_amp_power
@@ -17,7 +18,7 @@ living_amp_remote:
     - script.living_amp_cursor_left
     - script.living_amp_cursor_right
 living_ac_remote:
-  name: "AC"
+  name: "Living AC"
   control: hidden
   entities:
     - switch.living_ac_power
@@ -34,9 +35,25 @@ living_view:
   view: yes
   name: "Living"
   entities:
-    - switch.living_tv_power
-    - switch.living_amp_power
-    - switch.living_ac_power
     - group.living_tv_remote
     - group.living_amp_remote
     - group.living_ac_remote
+# Damon
+damon_ac_remote:
+  name: "Damon AC"
+  control: hidden
+  entities:
+    - switch.damon_ac_power
+    - script.damon_ac_temp_up
+    - script.damon_ac_temp_down
+    - script.damon_ac_fan
+    - script.damon_ac_air_purifier
+    - script.damon_ac_smart_cool
+    - script.damon_ac_mode
+    - script.damon_ac_set_horizontal
+    - script.damon_ac_set_vertical
+damon_view:
+  view: yes
+  name: "Damon"
+  entities:
+    - group.damon_ac_remote

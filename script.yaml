@@ -1,3 +1,4 @@
+# Living
 living_amp_menu:
   sequence:
     - service: switch.turn_on
@@ -66,3 +67,36 @@ living_ac_set_vertical:
   sequence:
     - service: switch.turn_on
       entity_id: switch.living_ac_set_vertical
+# Damon
+damon_ac_temp_up:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.damon_ac_temp_up
+damon_ac_temp_down:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.damon_ac_temp_down
+damon_ac_mode:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.damon_ac_mode
+damon_ac_fan:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.damon_ac_fan
+damon_ac_air_purifier:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.damon_ac_air_purifier
+damon_ac_set_horizontal:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.damon_ac_set_horizontal
+damon_ac_set_vertical:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.damon_ac_set_vertical
+damon_ac_smart_cool:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.damon_ac_smart_cool
