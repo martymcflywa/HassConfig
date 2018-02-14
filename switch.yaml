@@ -21,10 +21,10 @@
       friendly_name: "Living Amp Menu"
       command_on: 'JgBQAAABKJQSExI3ExMSExI3ExITEhMTEhMSExI3ExITNxM3EhMSExMSExITNxITEhMTEhMSExITNxI4EhMSOBI4EjcTNxM3EgAFkgABJ0oSAA0FAAAAAAAAAAA='
     living_amp_vol_up:
-      friendly_name: "Living Amp Volume Up"
+      friendly_name: "Living Amp Vol Up"
       command_on: 'JgBQAAABJ5QTEhM3EhMSExI4EhMSExITEhMSExI4EhMSOBI3ExMSExITEjcTEhMSExITEhMTEhMSNxMSEzcSOBI4EjcTNxM3EgAFkQABJ0oTAA0FAAAAAAAAAAA='
     living_amp_vol_down:
-      friendly_name: "Living Amp Volume Down"
+      friendly_name: "Living Amp Vol Down"
       command_on: 'JgBQAAABJ5USExI4EhMSExI3ExMSExITEhMSExI4EhMSOBI3ExITExITEjcTNxMSExITEhMTEhMSNxMSExMSNxM3EzcSOBQ2EgAFkQABKkgVAA0FAAAAAAAAAAA='
     living_amp_cursor_left:
       friendly_name: "Living Amp Cursor Left"
