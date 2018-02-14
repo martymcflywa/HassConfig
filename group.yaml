@@ -57,3 +57,4 @@ damon_view:
   name: "Damon"
   entities:
     - group.damon_ac_remote
+    - camera.damon
