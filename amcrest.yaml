@@ -1,0 +1,10 @@
+host: amcrest.mcfly.net
+port: 80
+name: "Damon"
+resolution: low
+stream_source: mjpeg
+username: !secret amcrest_username
+password: !secret amcrest_password
+sensors:
+  - motion_detector
+  - sdcard
