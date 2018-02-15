@@ -2,24 +2,14 @@ tv_power:
   speech:
     text: Turning {{room}} room TV {{onoff}}
   action:
-    service_template: >
-      {% if onoff == "on" %}
-        switch.turn_on
-      {% else %}
-        switch.turn_off
-      {% endif %}
+    - service: switch.turn_on
       data_template:
         entity_id: "switch.{{room}}_tv_power"
 amp_power:
   speech:
     text: Turning {{room}} room amp {{onoff}}
   action:
-    service_template: >
-      {% if onoff == "on" %}
-        switch.turn_on
-      {% else %}
-        switch.turn_off
-      {% endif %}
+    - service: switch.turn_on
       data_template:
         entity_id: "switch.{{room}}_amp_power"
 amp_volume:
@@ -54,8 +44,8 @@ ac_power:
   speech:
     text: Turning {{room}} room AC {{onoff}}
   action:
-    service_template: >
-      {% if onoff == "on" %}
+    service_template: >-
+      {% if onoff == 'on' %}
         switch.turn_on
       {% else %}
         switch.turn_off
