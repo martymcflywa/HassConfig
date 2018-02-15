@@ -1,0 +1,83 @@
+tv_power:
+  speech:
+    text: Turning {{room}} room TV {{onoff}}
+  async_action:
+    service_template: >
+      {% if onoff == "on" %}
+        switch.turn_on
+      {% else %}
+        switch.turn_off
+      {% endif %}
+      data_template:
+        entity_id: "switch.{{room}}_tv_power"
+amp_power:
+  speech:
+    text: Turning {{room}} room amp {{onoff}}
+  async_action:
+    service_template: >
+      {% if onoff == "on" %}
+        switch.turn_on
+      {% else %}
+        switch.turn_off
+      {% endif %}
+      data_template:
+        entity_id: "switch.{{room}}_amp_power"
+amp_volume:
+  speech:
+    text: Turning {{room}} room amp volume {{updown}}
+  async_action:
+    - service: switch.turn_on
+      data_template:
+        entity_id: "switch.{{room}}_amp_vol_{{updown}}"
+amp_mute:
+  speech:
+    text: Toggling mute on {{room}} room amp
+  async_action:
+    - service: switch.turn_on
+      data_template:
+        entity_id: "switch.{{room}}_amp_mute"
+amp_eq:
+  speech:
+    text: Switching EQ on {{room}} room amp
+  async_action:
+    - service: switch.turn_on
+      data_template:
+        entity_id: "switch.{{room}}_amp_eq"
+amp_source:
+  speech:
+    text: Switching source on {{room}} room amp
+  async_action:
+    - service: switch.turn_on
+      data_template:
+        entity_id: "switch.{{room}}_amp_source"
+ac_power:
+  speech:
+    text: Turning {{room}} room AC {{onoff}}
+  async_action:
+    service_template: >
+      {% if onoff == "on" %}
+        switch.turn_on
+      {% else %}
+        switch.turn_off
+      {% endif %}
+      data_template:
+        entity_id: "switch.{{room}}_ac_power"
+ac_temp:
+  speech:
+    text: Turning {{room}} room AC temp {{updown}}
+  async_action:
+    - service: switch.turn_on
+      data_template:
+        entity_id: "switch.{{room}}_ac_temp_{{updown}}"
+ac_fan:
+  speech:
+    text: Switching fan on {{room}} room AC
+  async_action:
+    - service: switch.turn_on
+      data_template: "switch.{{room}}_ac_fan"
+ac_mode:
+  speech:
+    text: Switching mode on {{room}} room AC
+  async_action:
+    - service: switch.turn_on
+      data_template: "switch.{{room}}_ac_mode"

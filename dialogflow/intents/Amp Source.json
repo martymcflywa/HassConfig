@@ -1,0 +1,43 @@
+{
+  "id": "96f55f17-88f6-4236-b3cc-d433bf5948a7",
+  "name": "Amp Source",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "amp_source",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f3005ea9-1dea-4ab7-9805-6ba0d45973ea",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "In which room?"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-au",
+          "speech": "Sorry, I can\u0027t connect to home. Try again."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518682858,
+  "fallbackIntent": false,
+  "events": []
+}

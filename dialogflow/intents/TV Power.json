@@ -1,0 +1,58 @@
+{
+  "id": "e261164d-179a-4852-83e1-a66b4e447227",
+  "name": "TV Power",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "tv_power",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e979c73b-deb8-49b0-8bef-4d216ca3b6d7",
+          "required": true,
+          "dataType": "@onoff",
+          "name": "onoff",
+          "value": "$onoff",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "Would you like me to turn the TV on or off?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "1385a93b-705c-4f63-9d22-0acbad3ba929",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "In which room?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-au",
+          "speech": "Sorry, I can\u0027t connect to home. Try again."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518682268,
+  "fallbackIntent": false,
+  "events": []
+}

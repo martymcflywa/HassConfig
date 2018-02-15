@@ -1,0 +1,58 @@
+{
+  "id": "a89b237f-e145-4801-9e74-8d2fe916c92a",
+  "name": "Amp Volume",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "amp_volume",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e8604be4-cc0e-49c0-b3e6-033c6ec51bf9",
+          "required": true,
+          "dataType": "@updown",
+          "name": "updown",
+          "value": "$updown",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "Would you like me to turn the volume up or down?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "5ae4e249-a982-4fcb-97ad-1a23577d73fb",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "In which room?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-au",
+          "speech": "Sorry, I can\u0027t connect to home. Try again."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518682248,
+  "fallbackIntent": false,
+  "events": []
+}

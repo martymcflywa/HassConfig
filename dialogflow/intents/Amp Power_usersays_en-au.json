@@ -1,0 +1,334 @@
+[
+  {
+    "id": "1d1deef5-3e2c-43e5-a352-9e69dee5739b",
+    "data": [
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp ",
+        "userDefined": false
+      },
+      {
+        "text": "off",
+        "alias": "onoff",
+        "meta": "@onoff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518681783
+  },
+  {
+    "id": "2bc855b5-230f-44a9-b2d6-0d283c42fcca",
+    "data": [
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "alias": "onoff",
+        "meta": "@onoff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518681783
+  },
+  {
+    "id": "5825ca2e-6cfe-4c71-aeab-a4e179e3b46b",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "off",
+        "alias": "onoff",
+        "meta": "@onoff",
+        "userDefined": false
+      },
+      {
+        "text": " amp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518681783
+  },
+  {
+    "id": "d2ec7a5a-1613-4d46-85f7-6aa3c5335952",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "alias": "onoff",
+        "meta": "@onoff",
+        "userDefined": false
+      },
+      {
+        "text": " amp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518681783
+  },
+  {
+    "id": "0b0e6c8e-2668-423c-b6d5-d62473cfe23b",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "off",
+        "alias": "onoff",
+        "meta": "@onoff",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1518681783
+  },
+  {
+    "id": "ad8130be-00f2-43f0-9a85-5539a3c9c8c2",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "alias": "onoff",
+        "meta": "@onoff",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518681783
+  },
+  {
+    "id": "865bde59-f401-4810-a063-8fb964bd6e78",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp ",
+        "userDefined": false
+      },
+      {
+        "text": "off",
+        "alias": "onoff",
+        "meta": "@onoff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518681783
+  },
+  {
+    "id": "2d639347-5012-4c1d-bb39-ebcd9a390475",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "alias": "onoff",
+        "meta": "@onoff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518681783
+  },
+  {
+    "id": "26ad615e-f26f-41d6-ac19-7aeca6462b9f",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "off",
+        "alias": "onoff",
+        "meta": "@onoff",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518681783
+  },
+  {
+    "id": "b7ec9c07-f46a-40b7-ae72-2d9334d7bc9e",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "alias": "onoff",
+        "meta": "@onoff",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518681783
+  },
+  {
+    "id": "7d03721b-4c24-47a3-b5ae-96e79400803e",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp ",
+        "userDefined": false
+      },
+      {
+        "text": "off",
+        "alias": "onoff",
+        "meta": "@onoff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518681783
+  },
+  {
+    "id": "751e36d6-77bd-447c-9dc7-bf815c6e9d48",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "alias": "onoff",
+        "meta": "@onoff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518681783
+  }
+]

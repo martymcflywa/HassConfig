@@ -1,0 +1,44 @@
+{
+  "id": "2ef487b2-ac5d-4fb2-8c0d-433abc3449fc",
+  "name": "Amp Mute",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "amp_mute",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e9e9515c-e472-4d65-83b4-8318ec262e70",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "In which room?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-au",
+          "speech": "Sorry, I can\u0027t connect to home. Try again."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518682505,
+  "fallbackIntent": false,
+  "events": []
+}

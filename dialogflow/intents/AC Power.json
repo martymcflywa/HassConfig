@@ -1,0 +1,58 @@
+{
+  "id": "ae3fac4e-6038-4771-aca4-774372c685a3",
+  "name": "AC Power",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ac_power",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "edbee5c2-7446-4511-b064-e0cb36313e28",
+          "required": true,
+          "dataType": "@onoff",
+          "name": "onoff",
+          "value": "$onoff",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "Would you like me to turn the AC on or off?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "80c2b123-4600-472a-8d30-a85dd2865ff5",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "In which room?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-au",
+          "speech": "Sorry, I can\u0027t connect to home. Try again."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518683528,
+  "fallbackIntent": false,
+  "events": []
+}

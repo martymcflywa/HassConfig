@@ -1,0 +1,35 @@
+{
+  "description": "",
+  "language": "en",
+  "disableInteractionLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2"
+  },
+  "defaultTimezone": "Asia/Hong_Kong",
+  "webhook": {
+    "url": "https://hass.martinponce.com.au/api/dialogflow?api_password\u003dmariju83",
+    "headers": {},
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [
+    "en-au"
+  ],
+  "enableOnePlatformApi": false
+}

@@ -1,0 +1,56 @@
+{
+  "id": "8396c161-e0b6-4af3-87d5-91cca4e95aeb",
+  "name": "AC Temp",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ac_temp",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b9e6a934-6997-45ad-919a-e1736b97e664",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "In which room?"
+            }
+          ]
+        },
+        {
+          "id": "01db6a25-978b-495e-8c28-4470c7faa307",
+          "required": true,
+          "dataType": "@updown",
+          "name": "updown",
+          "value": "$updown",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "Would you like me to turn the temperature up or down?"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-au",
+          "speech": "Sorry, I can\u0027t connect to home. Try again."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518683885,
+  "fallbackIntent": false,
+  "events": []
+}

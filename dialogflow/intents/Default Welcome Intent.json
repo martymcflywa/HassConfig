@@ -1,0 +1,43 @@
+{
+  "id": "70990a2d-ef44-40d2-af7e-b6e9ca5727b6",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-au",
+          "speech": "Welcome to Marty\u0027s home assistant. What would you like me to do?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi!",
+            "Hello!",
+            "Good day!",
+            "Greetings!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518681944,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ea0b6545-4c07-437a-9a82-e02ffde4fb94",
+  "name": "AC Fan",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ac_fan",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "314084e0-4785-4b96-a862-871484f84f02",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "In which room?"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-au",
+          "speech": "Sorry, I can\u0027t connect to home. Try again."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518688839,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "value": "living",
+    "synonyms": [
+      "living",
+      "living room"
+    ]
+  },
+  {
+    "value": "damon",
+    "synonyms": [
+      "damon",
+      "damon\u0027s room",
+      "damon room"
+    ]
+  },
+  {
+    "value": "master",
+    "synonyms": [
+      "master",
+      "master bedroom",
+      "master room"
+    ]
+  }
+]

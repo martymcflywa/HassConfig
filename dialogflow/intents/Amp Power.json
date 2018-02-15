@@ -1,0 +1,58 @@
+{
+  "id": "43c7f597-1c8f-44c6-8883-2661927290b8",
+  "name": "Amp Power",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "amp_power",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6bdea1c3-cf0f-480a-9bf1-ec4111fe24a2",
+          "required": true,
+          "dataType": "@onoff",
+          "name": "onoff",
+          "value": "$onoff",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "Would you like me to turn the amp on or off?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "77ee8b22-fcd4-482d-9b18-f28d8f0d0c88",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "In which room?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-au",
+          "speech": "Sorry, I can\u0027t connect to home. Try again."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518682230,
+  "fallbackIntent": false,
+  "events": []
+}
