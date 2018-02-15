@@ -1,4 +1,10 @@
 # Living
+living_media_power:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_power
+    - service: switch.turn_on
+      entity_id: switch.living_amp_power
 living_amp_menu:
   sequence:
     - service: switch.turn_on

@@ -1,4 +1,9 @@
 # Living
+# Media
+script.living_media_power:
+  friendly_name: "Power"
+  icon: mdi:power
+  assumed_state: false
 # TV
 switch.living_tv_power:
   friendly_name: "Power"

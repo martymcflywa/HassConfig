@@ -1,4 +1,17 @@
 # Living
+living_media_remote:
+  name: "Living Media Center"
+  control: hidden
+  entities:
+    - script.living_media_power
+    - script.living_amp_vol_up
+    - script.living_amp_vol_down
+    - script.living_amp_mute
+    - script.living_amp_eq
+    - script.living_amp_input
+    - script.living_amp_menu
+    - script.living_amp_cursor_left
+    - script.living_amp_cursor_right
 living_tv_remote:
   name: "Living TV"
   control: hidden
@@ -35,6 +48,7 @@ living_view:
   view: yes
   name: "Living"
   entities:
+    - group.living_media_remote
     - group.living_tv_remote
     - group.living_amp_remote
     - group.living_ac_remote
