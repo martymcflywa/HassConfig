@@ -1,89 +1,69 @@
 [
   {
-    "id": "20e718d2-2cec-498e-96a1-acc9ab8a6523",
+    "id": "cafca432-2479-4144-8e96-760b5e41776c",
     "data": [
       {
-        "text": "Next fan",
+        "text": "Unmute amp",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518702543
+    "updated": 1518702173
   },
   {
-    "id": "34a32fde-3a09-43e6-96dd-c7b1ebce4e76",
+    "id": "7376baf1-b921-4e47-a70b-e0d1b37b93f3",
     "data": [
       {
-        "text": "Change fan",
+        "text": "Mute amp",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518702543
+    "updated": 1518702173
   },
   {
-    "id": "e29e1ad0-d9c8-42d2-876c-9d859e0fb7e4",
+    "id": "b84360de-2ba5-4f27-8b15-8e74dafd0d8c",
     "data": [
       {
-        "text": "Switch fan",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518702543
-  },
-  {
-    "id": "c171d74a-6f14-47ca-9961-65d71ea9d68c",
-    "data": [
-      {
-        "text": "Next ",
-        "userDefined": false
-      },
-      {
-        "text": "damon",
+        "text": "living",
         "alias": "room",
         "meta": "@room",
         "userDefined": false
       },
       {
-        "text": " AC fan",
+        "text": " amp mute toggle",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518702543
+    "updated": 1518701158
   },
   {
-    "id": "c0eb7599-ef79-414b-a84b-f48bb35a30d6",
+    "id": "64be4fec-7a10-477b-b3c1-dd683f0400c3",
     "data": [
       {
-        "text": "Next ",
-        "userDefined": false
-      },
-      {
-        "text": "damon",
+        "text": "living",
         "alias": "room",
         "meta": "@room",
         "userDefined": false
       },
       {
-        "text": " aircon fan",
+        "text": " amp toggle mute",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518702543
+    "updated": 1518701158
   },
   {
-    "id": "41da9763-ba8b-4438-8658-a8b3865c37df",
+    "id": "c26d560e-3977-4fd6-b2df-6e1ba17a43b5",
     "data": [
       {
-        "text": "Next ",
+        "text": "Toggle mute ",
         "userDefined": false
       },
       {
@@ -93,19 +73,28 @@
         "userDefined": false
       },
       {
-        "text": " AC fan",
+        "text": " amp",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518702543
+    "updated": 1518701158
   },
   {
-    "id": "352535be-b0ca-4f26-b9d4-55f6b64f385a",
+    "id": "81d44e6c-c84c-4061-8e88-afef5eb8c7f2",
     "data": [
       {
-        "text": "Next ",
+        "text": "Toggle mute ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
         "userDefined": false
       },
       {
@@ -115,63 +104,91 @@
         "userDefined": false
       },
       {
-        "text": " aircon fan",
+        "text": " amp",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518702543
+    "updated": 1518701158
   },
   {
-    "id": "db9966d0-8b8a-4026-9c37-dab804232a86",
+    "id": "0e632abc-68f2-4044-9bbe-08ce5fcd9e18",
     "data": [
       {
-        "text": "Change ",
-        "userDefined": false
-      },
-      {
-        "text": "damon",
+        "text": "living",
         "alias": "room",
         "meta": "@room",
         "userDefined": false
       },
       {
-        "text": " AC fan",
+        "text": " unmute",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518702543
+    "updated": 1518701158
   },
   {
-    "id": "51925c01-c72d-4bc1-bbe3-91b9aaf67934",
+    "id": "8dc8d1f4-fab8-46c9-a24a-a17bde23b480",
     "data": [
       {
-        "text": "Change ",
-        "userDefined": false
-      },
-      {
-        "text": "damon",
+        "text": "living",
         "alias": "room",
         "meta": "@room",
         "userDefined": false
       },
       {
-        "text": " aircon fan",
+        "text": " mute",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518702543
+    "updated": 1518701158
   },
   {
-    "id": "d2f0b619-5b7b-469f-b443-f8395adde84d",
+    "id": "79b6cb43-a6e1-48b0-a197-43e9f68f80ef",
     "data": [
       {
-        "text": "Change ",
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp be loud",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701158
+  },
+  {
+    "id": "bb1bc172-c99e-4a82-9c65-5bb882fba0c4",
+    "data": [
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp be quiet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701158
+  },
+  {
+    "id": "20357d7b-e90f-4512-a9a4-06ca9392de6c",
+    "data": [
+      {
+        "text": "Get loud ",
         "userDefined": false
       },
       {
@@ -181,19 +198,19 @@
         "userDefined": false
       },
       {
-        "text": " AC fan",
+        "text": " amp",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518702543
+    "updated": 1518701158
   },
   {
-    "id": "1c242226-a7ef-4362-a7ae-03d9e4e87641",
+    "id": "cb745e2a-95ff-4233-8372-42948a650ed7",
     "data": [
       {
-        "text": "Change ",
+        "text": "I don\u0027t want to hear ",
         "userDefined": false
       },
       {
@@ -203,63 +220,19 @@
         "userDefined": false
       },
       {
-        "text": " aircon fan",
+        "text": " amp",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518702543
+    "updated": 1518701158
   },
   {
-    "id": "043579e8-9ee8-46a9-88f6-5031e9482761",
+    "id": "163caabb-0f45-4475-88c9-784c41607da8",
     "data": [
       {
-        "text": "Switch ",
-        "userDefined": false
-      },
-      {
-        "text": "damon",
-        "alias": "room",
-        "meta": "@room",
-        "userDefined": false
-      },
-      {
-        "text": " AC fan",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518702543
-  },
-  {
-    "id": "9e926e8e-0d3f-4e8d-979f-b8a71099327e",
-    "data": [
-      {
-        "text": "Switch ",
-        "userDefined": false
-      },
-      {
-        "text": "damon",
-        "alias": "room",
-        "meta": "@room",
-        "userDefined": false
-      },
-      {
-        "text": " aircon fan",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518702543
-  },
-  {
-    "id": "84255207-7a36-4694-9d91-02434d07ef5f",
-    "data": [
-      {
-        "text": "Switch ",
+        "text": "I want to hear ",
         "userDefined": false
       },
       {
@@ -269,19 +242,19 @@
         "userDefined": false
       },
       {
-        "text": " AC fan",
+        "text": " amp",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518702543
+    "updated": 1518701158
   },
   {
-    "id": "a43cda7b-5b25-487e-a4ab-00bedf982b29",
+    "id": "f4636f89-fe2f-4f69-b835-10c4acb6e6a2",
     "data": [
       {
-        "text": "Switch ",
+        "text": "I can\u0027t hear ",
         "userDefined": false
       },
       {
@@ -291,12 +264,87 @@
         "userDefined": false
       },
       {
-        "text": " aircon fan",
+        "text": " amp",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518702543
+    "updated": 1518701158
+  },
+  {
+    "id": "5118e057-01bc-4ff2-8608-301196274c58",
+    "data": [
+      {
+        "text": "Shut ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701158
+  },
+  {
+    "id": "d7dbfd77-649d-4261-bb81-bc9f215f797f",
+    "data": [
+      {
+        "text": "Unmute ",
+        "userDefined": false
+      },
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701158
+  },
+  {
+    "id": "c78804a7-d111-49f2-922b-1620aa474f49",
+    "data": [
+      {
+        "text": "Mute ",
+        "userDefined": false
+      },
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " amp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701158
   }
 ]

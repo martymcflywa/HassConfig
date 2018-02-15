@@ -19,8 +19,13 @@
             {
               "lang": "en-au",
               "value": "In which room?"
+            },
+            {
+              "lang": "en",
+              "value": "In which room?"
             }
-          ]
+          ],
+          "isList": false
         }
       ],
       "messages": [
@@ -37,7 +42,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1518682858,
+  "lastUpdate": 1518735046,
   "fallbackIntent": false,
   "events": []
 }

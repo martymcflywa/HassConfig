@@ -12,11 +12,6 @@
       "messages": [
         {
           "type": 0,
-          "lang": "en-au",
-          "speech": "Welcome to Marty\u0027s home assistant. What would you like me to do?"
-        },
-        {
-          "type": 0,
           "lang": "en",
           "speech": [
             "Hi!",
@@ -24,6 +19,11 @@
             "Good day!",
             "Greetings!"
           ]
+        },
+        {
+          "type": 0,
+          "lang": "en-au",
+          "speech": "Welcome to Marty\u0027s home assistant. What would you like me to do?"
         }
       ],
       "defaultResponsePlatforms": {},

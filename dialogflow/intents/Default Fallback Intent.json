@@ -1,7 +1,7 @@
 {
   "id": "8e5fa079-decd-4866-bd82-22f1611328c4",
   "name": "Default Fallback Intent",
-  "auto": true,
+  "auto": false,
   "contexts": [],
   "responses": [
     {
@@ -12,7 +12,7 @@
       "messages": [
         {
           "type": 0,
-          "lang": "en-au",
+          "lang": "en",
           "speech": [
             "I didn\u0027t get that. Can you say it again?",
             "I missed what you said. Say it again?",
@@ -30,7 +30,7 @@
         },
         {
           "type": 0,
-          "lang": "en",
+          "lang": "en-au",
           "speech": [
             "I didn\u0027t get that. Can you say it again?",
             "I missed what you said. Say it again?",

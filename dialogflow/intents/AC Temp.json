@@ -19,8 +19,13 @@
             {
               "lang": "en-au",
               "value": "In which room?"
+            },
+            {
+              "lang": "en",
+              "value": "In which room?"
             }
-          ]
+          ],
+          "isList": false
         },
         {
           "id": "01db6a25-978b-495e-8c28-4470c7faa307",
@@ -32,8 +37,13 @@
             {
               "lang": "en-au",
               "value": "Would you like me to turn the temperature up or down?"
+            },
+            {
+              "lang": "en",
+              "value": "Would you like me to turn the temperature up or down?"
             }
-          ]
+          ],
+          "isList": false
         }
       ],
       "messages": [
@@ -50,7 +60,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1518683885,
+  "lastUpdate": 1518735395,
   "fallbackIntent": false,
   "events": []
 }

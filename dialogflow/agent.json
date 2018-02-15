@@ -5,21 +5,77 @@
   "googleAssistant": {
     "googleAssistantCompatible": true,
     "welcomeIntentSignInRequired": false,
-    "startIntents": [],
+    "startIntents": [
+      {
+        "intentId": "2cfe4798-8aee-4ccb-a2b4-4bc0934446c8",
+        "signInRequired": false
+      },
+      {
+        "intentId": "2ef487b2-ac5d-4fb2-8c0d-433abc3449fc",
+        "signInRequired": false
+      },
+      {
+        "intentId": "43c7f597-1c8f-44c6-8883-2661927290b8",
+        "signInRequired": false
+      },
+      {
+        "intentId": "6952353e-7b30-460a-b947-9d61d8cd6d3b",
+        "signInRequired": false
+      },
+      {
+        "intentId": "8396c161-e0b6-4af3-87d5-91cca4e95aeb",
+        "signInRequired": false
+      },
+      {
+        "intentId": "96f55f17-88f6-4236-b3cc-d433bf5948a7",
+        "signInRequired": false
+      },
+      {
+        "intentId": "a89b237f-e145-4801-9e74-8d2fe916c92a",
+        "signInRequired": false
+      },
+      {
+        "intentId": "ae3fac4e-6038-4771-aca4-774372c685a3",
+        "signInRequired": false
+      },
+      {
+        "intentId": "e261164d-179a-4852-83e1-a66b4e447227",
+        "signInRequired": false
+      },
+      {
+        "intentId": "ea0b6545-4c07-437a-9a82-e02ffde4fb94",
+        "signInRequired": false
+      }
+    ],
     "systemIntents": [],
-    "endIntentIds": [],
+    "endIntentIds": [
+      "e261164d-179a-4852-83e1-a66b4e447227",
+      "a89b237f-e145-4801-9e74-8d2fe916c92a",
+      "96f55f17-88f6-4236-b3cc-d433bf5948a7",
+      "43c7f597-1c8f-44c6-8883-2661927290b8",
+      "2ef487b2-ac5d-4fb2-8c0d-433abc3449fc",
+      "6952353e-7b30-460a-b947-9d61d8cd6d3b",
+      "8396c161-e0b6-4af3-87d5-91cca4e95aeb",
+      "ae3fac4e-6038-4771-aca4-774372c685a3",
+      "2cfe4798-8aee-4ccb-a2b4-4bc0934446c8",
+      "ea0b6545-4c07-437a-9a82-e02ffde4fb94"
+    ],
     "oAuthLinking": {
       "required": false,
       "grantType": "AUTH_CODE_GRANT"
     },
     "voiceType": "MALE_1",
     "capabilities": [],
-    "protocolVersion": "V2"
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true
   },
   "defaultTimezone": "Asia/Hong_Kong",
   "webhook": {
-    "url": "https://hass.martinponce.com.au/api/dialogflow?api_password\u003dmariju83",
-    "headers": {},
+    "url": "https://hass.martinponce.com.au/api/dialogflow",
+    "headers": {
+      "x-ha-access": "myhassdialogflow",
+      "Content-Type": "application/json"
+    },
     "available": true,
     "useForDomains": false,
     "cloudFunctionsEnabled": false,

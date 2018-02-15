@@ -1,19 +1,19 @@
 [
   {
-    "id": "8571ff2b-05f5-4ec5-9682-b27db225f85d",
+    "id": "bc546d97-70e9-4648-817f-317aa0c71ba2",
     "data": [
       {
         "text": "Turn ",
         "userDefined": false
       },
       {
-        "text": "living",
+        "text": "damon",
         "alias": "room",
         "meta": "@room",
         "userDefined": false
       },
       {
-        "text": " volume ",
+        "text": " AC temp ",
         "userDefined": false
       },
       {
@@ -25,23 +25,23 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518734515
+    "updated": 1518701546
   },
   {
-    "id": "f6591e68-a3be-42e5-adc9-9b6ec4807b48",
+    "id": "808346d2-01f4-4d7f-9905-e55e6ae52d8d",
     "data": [
       {
         "text": "Turn ",
         "userDefined": false
       },
       {
-        "text": "living",
+        "text": "damon",
         "alias": "room",
         "meta": "@room",
         "userDefined": false
       },
       {
-        "text": " volume ",
+        "text": " AC temp ",
         "userDefined": false
       },
       {
@@ -53,10 +53,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518734515
+    "updated": 1518701546
   },
   {
-    "id": "2a93f759-b662-4c76-ba52-47f273cd016b",
+    "id": "c2542117-58c5-4dfd-b582-81ebf43dfc4e",
     "data": [
       {
         "text": "Turn ",
@@ -69,7 +69,7 @@
         "userDefined": false
       },
       {
-        "text": " amp volume ",
+        "text": " AC temp ",
         "userDefined": false
       },
       {
@@ -81,10 +81,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518734515
+    "updated": 1518701546
   },
   {
-    "id": "47c7a710-df2f-48eb-91e8-099a57ee18f8",
+    "id": "53882466-92e9-411d-a0a5-f66dd23669ff",
     "data": [
       {
         "text": "Turn ",
@@ -97,7 +97,7 @@
         "userDefined": false
       },
       {
-        "text": " amp volume ",
+        "text": " AC temp ",
         "userDefined": false
       },
       {
@@ -109,87 +109,331 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518734515
+    "updated": 1518701546
   },
   {
-    "id": "c7f3d88a-d050-4a8f-808f-3406f365fb8f",
+    "id": "dffd6ead-e441-4591-9d49-75b3f464ddfd",
     "data": [
       {
         "text": "Turn ",
         "userDefined": false
       },
       {
+        "text": "damon",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " aircon temp ",
+        "userDefined": false
+      },
+      {
         "text": "down",
         "alias": "updown",
         "meta": "@updown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701546
+  },
+  {
+    "id": "58ab8c7f-7450-45dd-9fa8-739e2774dc7a",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "damon",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " aircon temp ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "updown",
+        "meta": "@updown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701546
+  },
+  {
+    "id": "30c35f71-e131-4623-8688-fa6bb218b88e",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " aircon temp ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "updown",
+        "meta": "@updown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701546
+  },
+  {
+    "id": "6d9a45b7-6c07-4603-a94d-3e187d1a115c",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " aircon temp ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "updown",
+        "meta": "@updown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701546
+  },
+  {
+    "id": "697c9dd4-7063-4626-803c-53cbfe429d52",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "damon",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " AC temperature ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "updown",
+        "meta": "@updown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701546
+  },
+  {
+    "id": "1c97ff33-53aa-4781-9e2e-0a36a0b9dcb1",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "damon",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " AC temperature ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "updown",
+        "meta": "@updown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701546
+  },
+  {
+    "id": "d80446fc-f07c-4f73-83f8-dde1b5ab5801",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " AC temperature ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "updown",
+        "meta": "@updown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701546
+  },
+  {
+    "id": "ddb77157-6a94-432e-96ee-f65c98d26fb7",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " AC temperature ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "updown",
+        "meta": "@updown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701546
+  },
+  {
+    "id": "8d1c7992-28a0-4ef5-8256-8b7e8d6d1703",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " aircon temperature ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "updown",
+        "meta": "@updown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701546
+  },
+  {
+    "id": "8641a8fe-ec6b-4f31-96b7-a2ab6ea0cbc4",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "living",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " aircon temperature ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "alias": "updown",
+        "meta": "@updown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701546
+  },
+  {
+    "id": "88ba2210-54bd-4b15-95d6-23c3ddaa5407",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "damon\u0027s",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " aircon temperature ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "alias": "updown",
+        "meta": "@updown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518701546
+  },
+  {
+    "id": "742f2c0a-3f5d-4871-8f46-7f41dd416550",
+    "data": [
+      {
+        "text": "Turn ",
+        "userDefined": false
+      },
+      {
+        "text": "damon\u0027s",
+        "alias": "room",
+        "meta": "@room",
         "userDefined": true
       },
       {
-        "text": " volume",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518734515
-  },
-  {
-    "id": "e182740b-94c0-4161-a4a6-b7574e207269",
-    "data": [
-      {
-        "text": "Turn ",
-        "userDefined": false
-      },
-      {
-        "text": "up",
-        "alias": "updown",
-        "meta": "@updown",
-        "userDefined": false
-      },
-      {
-        "text": " volume",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518734515
-  },
-  {
-    "id": "b0870374-5fd0-4a6f-a90c-b53e720599dc",
-    "data": [
-      {
-        "text": "living",
-        "alias": "room",
-        "meta": "@room",
-        "userDefined": false
-      },
-      {
-        "text": " amp ",
-        "userDefined": false
-      },
-      {
-        "text": "down",
-        "alias": "updown",
-        "meta": "@updown",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518734515
-  },
-  {
-    "id": "1b804cc0-35c8-486e-87e2-703fa023ad1d",
-    "data": [
-      {
-        "text": "living",
-        "alias": "room",
-        "meta": "@room",
-        "userDefined": false
-      },
-      {
-        "text": " amp ",
+        "text": " aircon temperature ",
         "userDefined": false
       },
       {
@@ -201,307 +445,23 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518734515
+    "updated": 1518701546
   },
   {
-    "id": "88aa48b5-a8ed-4d3a-a866-8676dabf0d9b",
-    "data": [
-      {
-        "text": "Down",
-        "alias": "updown",
-        "meta": "@updown",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "living",
-        "alias": "room",
-        "meta": "@room",
-        "userDefined": false
-      },
-      {
-        "text": " amp",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518734515
-  },
-  {
-    "id": "f34fc34a-2432-4651-adf2-b1116a62434b",
-    "data": [
-      {
-        "text": "Up",
-        "alias": "updown",
-        "meta": "@updown",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "living",
-        "alias": "room",
-        "meta": "@room",
-        "userDefined": false
-      },
-      {
-        "text": " amp",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518734515
-  },
-  {
-    "id": "9ad3999a-1cd3-4c30-bf23-6fd97ab81e06",
-    "data": [
-      {
-        "text": "Volume ",
-        "userDefined": false
-      },
-      {
-        "text": "down",
-        "alias": "updown",
-        "meta": "@updown",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "living",
-        "alias": "room",
-        "meta": "@room",
-        "userDefined": false
-      },
-      {
-        "text": " amp",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518734515
-  },
-  {
-    "id": "0d13e724-5681-4d23-bd34-8bcb4dc6d617",
-    "data": [
-      {
-        "text": "Volume ",
-        "userDefined": false
-      },
-      {
-        "text": "up",
-        "alias": "updown",
-        "meta": "@updown",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "living",
-        "alias": "room",
-        "meta": "@room",
-        "userDefined": false
-      },
-      {
-        "text": " amp",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518734515
-  },
-  {
-    "id": "883502e2-e437-4cda-ae4a-4eff63122a5d",
-    "data": [
-      {
-        "text": "Turn the volume ",
-        "userDefined": false
-      },
-      {
-        "text": "down",
-        "alias": "updown",
-        "meta": "@updown",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "on",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "living",
-        "alias": "room",
-        "meta": "@room",
-        "userDefined": false
-      },
-      {
-        "text": " amp",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518734515
-  },
-  {
-    "id": "000bf7ed-e853-4301-b9cd-e09ada35bc8f",
-    "data": [
-      {
-        "text": "Turn the volume ",
-        "userDefined": false
-      },
-      {
-        "text": "up",
-        "alias": "updown",
-        "meta": "@updown",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "on",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "living",
-        "alias": "room",
-        "meta": "@room",
-        "userDefined": false
-      },
-      {
-        "text": " amp",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518734515
-  },
-  {
-    "id": "e961172a-9aba-46e0-9124-afab5af79a6a",
-    "data": [
-      {
-        "text": "Turn ",
-        "userDefined": false
-      },
-      {
-        "text": "down",
-        "alias": "updown",
-        "meta": "@updown",
-        "userDefined": false
-      },
-      {
-        "text": " the volume ",
-        "userDefined": false
-      },
-      {
-        "text": "on",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "living",
-        "alias": "room",
-        "meta": "@room",
-        "userDefined": false
-      },
-      {
-        "text": " amp",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518734515
-  },
-  {
-    "id": "4b7f561f-5d17-4fd8-91bd-2bf991ef1c45",
-    "data": [
-      {
-        "text": "Turn ",
-        "userDefined": false
-      },
-      {
-        "text": "up",
-        "alias": "updown",
-        "meta": "@updown",
-        "userDefined": false
-      },
-      {
-        "text": " the volume ",
-        "userDefined": false
-      },
-      {
-        "text": "on",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " ",
-        "userDefined": false
-      },
-      {
-        "text": "living",
-        "alias": "room",
-        "meta": "@room",
-        "userDefined": false
-      },
-      {
-        "text": " amp",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1518734515
-  },
-  {
-    "id": "056c1651-08ff-4a6f-ba0e-5010a75ef2e1",
+    "id": "444dc052-165f-4069-942f-feb2afa8218d",
     "data": [
       {
         "text": "Turn the ",
         "userDefined": false
       },
       {
-        "text": "living room",
+        "text": "living",
         "alias": "room",
         "meta": "@room",
         "userDefined": false
       },
       {
-        "text": " amp ",
+        "text": " aircon temperature ",
         "userDefined": false
       },
       {
@@ -513,23 +473,23 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518734515
+    "updated": 1518701546
   },
   {
-    "id": "5b78d21b-3c90-4bc4-b0ef-edc2940de53c",
+    "id": "a83ccd47-e422-4e07-9ce2-f0abda88c365",
     "data": [
       {
         "text": "Turn the ",
         "userDefined": false
       },
       {
-        "text": "living room",
+        "text": "living",
         "alias": "room",
         "meta": "@room",
         "userDefined": false
       },
       {
-        "text": " amp ",
+        "text": " aircon temperature ",
         "userDefined": false
       },
       {
@@ -541,6 +501,6 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1518734515
+    "updated": 1518701546
   }
 ]
