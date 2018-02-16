@@ -1,0 +1,8 @@
+- platform: bom
+  station: IDW60901.94608
+  name: "Perth"
+  monitored_conditions:
+    - air_temp
+    - apparent_t
+    - rel_hum
+    - rain_trace

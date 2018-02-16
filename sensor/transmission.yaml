@@ -1,0 +1,11 @@
+- platform: transmission
+  host: dorado.mcfly.net
+  port: 9091
+  name: "tx dorado"
+  username: !secret tx_username
+  password: !secret tx_password
+  monitored_variables:
+    - 'current_status'
+    - 'download_speed'
+    - 'upload_speed'
+    - 'active_torrents'
