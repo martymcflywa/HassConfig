@@ -1,0 +1,6 @@
+- platform: transmission
+  host: dorado.mcfly.net
+  ip: 9091
+  name: "tx dorado"
+  username: !secret tx_username
+  password: !secret tx_password
