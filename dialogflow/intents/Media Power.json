@@ -1,0 +1,71 @@
+{
+  "id": "38c0c3db-789f-4360-8c06-cfa7f901e9b8",
+  "name": "Media Power",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "media_power",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d4ac95cc-1d63-42c4-b4c8-8b74730085ca",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "In which room?"
+            },
+            {
+              "lang": "en",
+              "value": "In which room?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "9751d444-2a56-4521-8378-71321f1795b3",
+          "required": true,
+          "dataType": "@onoff",
+          "name": "onoff",
+          "value": "$onoff",
+          "prompts": [
+            {
+              "lang": "en-au",
+              "value": "Would you like me to turn the media center on or off?"
+            },
+            {
+              "lang": "en",
+              "value": "Would you like me to turn the media center on or off?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en-au",
+          "speech": "Sorry, I can\u0027t connect to home. Try again."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, I can\u0027t connect to home. Try again."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518739182,
+  "fallbackIntent": false,
+  "events": []
+}
