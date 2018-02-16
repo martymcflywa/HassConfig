@@ -1,0 +1,8 @@
+script.living_media_power_on:
+  friendly_name: "On"
+  icon: mdi:power
+  assumed_state: false
+script.living_media_power_off:
+  friendly_name: "Off"
+  icon: mdi:power
+  assumed_state: false

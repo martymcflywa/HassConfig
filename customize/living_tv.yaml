@@ -1,0 +1,13 @@
+switch.living_tv_power:
+  friendly_name: "Living TV Power"
+  icon: mdi:power
+  assumed_state: false
+  hidden: true
+script.living_tv_power_on:
+  friendly_name: "On"
+  icon: mdi:power
+  assumed_state: false
+script.living_tv_power_off:
+  friendly_name: "Off"
+  icon: mdi:power
+  assumed_state: false

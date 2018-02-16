@@ -1,0 +1,53 @@
+switch.living_amp_power:
+  friendly_name: "Living Amp Power"
+  icon: mdi:power
+  assumed_state: false
+  hidden: true
+script.living_amp_power_on:
+  friendly_name: "On"
+  icon: mdi:power
+  assumed_state: false
+script.living_amp_power_off:
+  friendly_name: "Off"
+  icon: mdi:power
+  assumed_state: false
+script.living_amp_vol_up:
+  friendly_name: "Vol +"
+  icon: mdi:volume-plus
+script.living_amp_vol_down:
+  friendly_name: "Vol -"
+  icon: mdi:volume-minus
+script.living_amp_mute:
+  friendly_name: "Mute"
+  icon: mdi:volume-mute
+script.living_amp_input:
+  friendly_name: "Input"
+  icon: mdi:video-input-component
+script.living_amp_menu:
+  friendly_name: "Menu"
+  icon: mdi:menu
+script.living_amp_cursor_left:
+  friendly_name: "Left"
+  icon: mdi:arrow-left
+script.living_amp_cursor_right:
+  friendly_name: "Right"
+  icon: mdi:arrow-right
+script.living_amp_eq: 
+  friendly_name: "EQ"
+  icon: mdi:tune-vertical
+switch.living_amp_cursor_left:
+  hidden: true
+switch.living_amp_cursor_right:
+  hidden: true
+switch.living_amp_eq:
+  hidden: true
+switch.living_amp_input:
+  hidden: true
+switch.living_amp_menu:
+  hidden: true
+switch.living_amp_mute:
+  hidden: true
+switch.living_amp_vol_down:
+  hidden: true
+switch.living_amp_vol_up:
+  hidden: true

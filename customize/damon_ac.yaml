@@ -1,0 +1,52 @@
+switch.damon_ac_power:
+  friendly_name: "Damon AC Power"
+  icon: mdi:power
+  assumed_state: false
+  hidden: true
+script.damon_ac_power_on:
+  friendly_name: "On"
+  icon: mdi:power
+  assumed_state: false
+script.damon_ac_power_off:
+  friendly_name: "Off"
+  icon: mdi:power
+script.damon_ac_temp_up:
+  friendly_name: "Temp +"
+  icon: mdi:thermometer-lines
+script.damon_ac_temp_down:
+  friendly_name: "Temp -"
+  icon: mdi:snowflake
+script.damon_ac_mode:
+  friendly_name: "Mode"
+  icon: mdi:dip-switch
+script.damon_ac_fan:
+  friendly_name: "Fan"
+  icon: mdi:fan
+script.damon_ac_air_purifier:
+  friendly_name: "Air Purifier Mode"
+  icon: mdi:blur-radial
+script.damon_ac_set_horizontal:
+  friendly_name: "Horizontal"
+  icon: mdi:swap-horizontal
+script.damon_ac_set_vertical:
+  friendly_name: "Vertical"
+  icon: mdi:swap-vertical
+script.damon_ac_smart_cool:
+  friendly_name: "Smart Cool"
+  icon: mdi:auto-fix
+switch.damon_ac_temp_up:
+  hidden: true
+switch.damon_ac_temp_down:
+  hidden: true
+switch.damon_ac_mode:
+  hidden: true
+switch.damon_ac_fan:
+  hidden: true
+switch.damon_ac_air_purifier:
+  hidden: true
+switch.damon_ac_set_horizontal:
+  hidden: true
+switch.damon_ac_set_vertical:
+  hidden: true
+switch.damon_ac_smart_cool:
+  hidden: true
