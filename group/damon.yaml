@@ -1,0 +1,20 @@
+damon_ac_remote:
+  name: "Damon AC"
+  control: hidden
+  entities:
+    - script.damon_ac_power_on
+    - script.damon_ac_power_off
+    - script.damon_ac_temp_up
+    - script.damon_ac_temp_down
+    - script.damon_ac_fan
+    - script.damon_ac_air_purifier
+    - script.damon_ac_smart_cool
+    - script.damon_ac_mode
+    - script.damon_ac_set_horizontal
+    - script.damon_ac_set_vertical
+damon_view:
+  view: yes
+  name: "Damon"
+  entities:
+    - group.damon_ac_remote
+    - camera.damon
