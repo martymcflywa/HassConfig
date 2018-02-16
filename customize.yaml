@@ -1,17 +1,39 @@
 # Living
 # Media
-script.living_media_power:
-  friendly_name: "Power"
+script.living_media_power_on:
+  friendly_name: "On"
+  icon: mdi:power
+  assumed_state: false
+script.living_media_power_off:
+  friendly_name: "Off"
   icon: mdi:power
   assumed_state: false
 # TV
 switch.living_tv_power:
-  friendly_name: "Power"
+  friendly_name: "Living TV Power"
+  icon: mdi:power
+  assumed_state: false
+  hidden: true
+script.living_tv_power_on:
+  friendly_name: "On"
+  icon: mdi:power
+  assumed_state: false
+script.living_tv_power_off:
+  friendly_name: "Off"
   icon: mdi:power
   assumed_state: false
 # Amp
 switch.living_amp_power:
-  friendly_name: "Power"
+  friendly_name: "Living Amp Power"
+  icon: mdi:power
+  assumed_state: false
+  hidden: true
+script.living_amp_power_on:
+  friendly_name: "On"
+  icon: mdi:power
+  assumed_state: false
+script.living_amp_power_off:
+  friendly_name: "Off"
   icon: mdi:power
   assumed_state: false
 script.living_amp_vol_up:
@@ -40,9 +62,17 @@ script.living_amp_eq:
   icon: mdi:tune-vertical
 # AC
 switch.living_ac_power:
-  friendly_name: "Power"
+  friendly_name: "Living AC Power"
   icon: mdi:power
   assumed_state: false
+  hidden: true
+script.living_ac_power_on:
+  friendly_name: "On"
+  icon: mdi:power
+  assumed_state: false
+script.living_ac_power_off:
+  friendly_name: "Off"
+  icon: mdi:power
 script.living_ac_temp_up:
   friendly_name: "Temp +"
   icon: mdi:thermometer-lines
@@ -108,9 +138,17 @@ switch.living_amp_vol_up:
 # Damon
 # AC
 switch.damon_ac_power:
-  friendly_name: "Power"
+  friendly_name: "Damon AC Power"
   icon: mdi:power
   assumed_state: false
+  hidden: true
+script.damon_ac_power_on:
+  friendly_name: "On"
+  icon: mdi:power
+  assumed_state: false
+script.damon_ac_power_off:
+  friendly_name: "Off"
+  icon: mdi:power
 script.damon_ac_temp_up:
   friendly_name: "Temp +"
   icon: mdi:thermometer-lines

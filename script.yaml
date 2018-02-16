@@ -1,9 +1,31 @@
 # Living
-living_media_power:
+living_media_power_on:
   sequence:
     - service: switch.turn_on
       entity_id: switch.living_tv_power
     - service: switch.turn_on
+      entity_id: switch.living_amp_power
+living_media_power_off:
+  sequence: 
+    - service: switch.turn_off
+      entity_id: switch.living_tv_power
+    - service: switch.turn_off
+      entity_id: switch.living_amp_power
+living_tv_power_on:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_power
+living_tv_power_off:
+  sequence:
+    - service: switch.turn_off
+      entity_id: switch.living_tv_power
+living_amp_power_on:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_amp_power
+living_amp_power_off:
+  sequence:
+    - service: switch.turn_off
       entity_id: switch.living_amp_power
 living_amp_menu:
   sequence:
@@ -37,6 +59,14 @@ living_amp_eq:
   sequence:
     - service: switch.turn_on
       entity_id: switch.living_amp_eq
+living_ac_power_on:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_ac_power
+living_ac_power_off:
+  sequence:
+    - service: switch.turn_off
+      entity_id: switch.living_ac_power
 living_ac_temp_up:
   sequence:
     - service: switch.turn_on
@@ -74,6 +104,14 @@ living_ac_set_vertical:
     - service: switch.turn_on
       entity_id: switch.living_ac_set_vertical
 # Damon
+damon_ac_power_on:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.damon_ac_power
+damon_ac_power_off:
+  sequence:
+    - service: switch.turn_off
+      entity_id: switch.damon_ac_power
 damon_ac_temp_up:
   sequence:
     - service: switch.turn_on

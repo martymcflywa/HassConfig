@@ -3,7 +3,8 @@ living_media_remote:
   name: "Living Media Center"
   control: hidden
   entities:
-    - script.living_media_power
+    - script.living_media_power_on
+    - script.living_media_power_off
     - script.living_amp_vol_up
     - script.living_amp_vol_down
     - script.living_amp_mute
@@ -16,12 +17,14 @@ living_tv_remote:
   name: "Living TV"
   control: hidden
   entities:
-    - switch.living_tv_power
+    - script.living_tv_power_on
+    - script.living_tv_power_off
 living_amp_remote:
   name: "Living Amp"
   control: hidden
   entities:
-    - switch.living_amp_power
+    - script.living_amp_power_on
+    - script.living_amp_power_off
     - script.living_amp_vol_up
     - script.living_amp_vol_down
     - script.living_amp_mute
@@ -34,7 +37,8 @@ living_ac_remote:
   name: "Living AC"
   control: hidden
   entities:
-    - switch.living_ac_power
+    - script.living_ac_power_on
+    - script.living_ac_power_off
     - script.living_ac_temp_up
     - script.living_ac_temp_down
     - script.living_ac_fan
@@ -57,7 +61,8 @@ damon_ac_remote:
   name: "Damon AC"
   control: hidden
   entities:
-    - switch.damon_ac_power
+    - script.damon_ac_power_on
+    - script.damon_ac_power_off
     - script.damon_ac_temp_up
     - script.damon_ac_temp_down
     - script.damon_ac_fan
