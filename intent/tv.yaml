@@ -1,0 +1,5 @@
+tv_power:
+  speech:
+    text: Turning {{room}} room TV {{onoff}}
+  action:
+    service_template: "script.{{room}}_tv_power_{{onoff}}"

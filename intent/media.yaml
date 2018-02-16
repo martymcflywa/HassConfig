@@ -1,0 +1,5 @@
+media_power:
+  speech:
+    text: Turning {{room}} room media center {{onoff}}
+  action:
+    service_template: "script.{{room}}_media_power_{{onoff}}"

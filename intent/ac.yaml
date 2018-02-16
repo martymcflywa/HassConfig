@@ -1,0 +1,20 @@
+ac_power:
+  speech:
+    text: Turning {{room}} room AC {{onoff}}
+  action:
+    service_template: "script.{{room}}_ac_power_{{onoff}}"
+ac_temp:
+  speech:
+    text: Turning {{room}} room AC temp {{updown}}
+  action:
+    service_template: "script.{{room}}_ac_temp_{{updown}}"
+ac_fan:
+  speech:
+    text: Switching fan on {{room}} room AC
+  action:
+    service_template: "script.{{room}}_ac_fan"
+ac_mode:
+  speech:
+    text: Switching mode on {{room}} room AC
+  action:
+    service_template: "script.{{room}}_ac_mode"

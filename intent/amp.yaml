@@ -1,0 +1,25 @@
+amp_power:
+  speech:
+    text: Turning {{room}} room amp {{onoff}}
+  action:
+    service_template: "script.{{room}}_amp_power_{{onoff}}"
+amp_volume:
+  speech:
+    text: Turning {{room}} room amp volume {{updown}}
+  action:
+    service_template: "script.{{room}}_amp_vol_{{updown}}"
+amp_mute:
+  speech:
+    text: Toggling mute on {{room}} room amp
+  action:
+    service_template: "script.{{room}}_amp_mute"
+amp_eq:
+  speech:
+    text: Switching EQ on {{room}} room amp
+  action:
+    service_template: "script.{{room}}_amp_eq"
+amp_source:
+  speech:
+    text: Switching source on {{room}} room amp
+  action:
+    service_template: "script.{{room}}_amp_source"
