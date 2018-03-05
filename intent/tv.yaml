@@ -3,3 +3,13 @@ tv_power:
     text: Turning {{room}} room TV {{onoff}}
   action:
     service_template: "script.{{room}}_tv_power_{{onoff}}"
+tv_source:
+  speech:
+    text: Switching {{room}} room TV source to {{tvsource}}
+  action:
+    service_template: "script.{{room}}_tv_{{tvsource}}"
+tv_chan:
+  speech:
+    text: Changing {{room}} room TV to channel {{tvchan}}
+  action:
+    service_template: "script.{{room}}_tv_chan_{{tvchan}}"
