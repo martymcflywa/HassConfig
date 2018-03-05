@@ -1,0 +1,4 @@
+living_wakeup_rm:
+  friendly_name: "Living Wakeup RM"
+  command_on: '================'
+  command_off: '================'

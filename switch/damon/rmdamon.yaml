@@ -1,0 +1,4 @@
+damon_wakeup_rm:
+  friendly_name: "Damon Wakeup RM"
+  command_on: '================'
+  command_off: '================'
