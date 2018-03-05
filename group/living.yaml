@@ -18,6 +18,33 @@ living_tv_remote:
   entities:
     - script.living_tv_power_on
     - script.living_tv_power_off
+    - script.living_tv_hdmi
+    - script.living_tv_dtv
+    - script.living_tv_chan_next
+    - script.living_tv_chan_previous
+    - script.living_tv_chan_abc
+    - script.living_tv_chan_abc_kids
+    - script.living_tv_chan_abc_me
+    - script.living_tv_chan_abc_news
+    - script.living_tv_chan_7
+    - script.living_tv_chan_7two
+    - script.living_tv_chan_7mate
+    - script.living_tv_chan_7flix
+    - script.living_tv_chan_9
+    - script.living_tv_chan_9gem
+    - script.living_tv_chan_9go
+    - script.living_tv_chan_9life
+    - script.living_tv_chan_10
+    - script.living_tv_chan_10eleven
+    - script.living_tv_chan_10one
+    - script.living_tv_chan_sbs
+    - script.living_tv_chan_sbs_viceland
+    - script.living_tv_chan_nitv
+    - script.living_tv_chan_wtv
+    - script.living_tv_chan_racing
+    - script.living_tv_hdmi_1
+    - script.living_tv_hdmi_2
+    - script.living_tv_hdmi_3
 living_amp_remote:
   name: "Living Amp"
   control: hidden

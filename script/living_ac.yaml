@@ -1,0 +1,44 @@
+living_ac_power_on:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_ac_power
+living_ac_power_off:
+  sequence:
+    - service: switch.turn_off
+      entity_id: switch.living_ac_power
+living_ac_temp_up:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_ac_temp_up
+living_ac_temp_down:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_ac_temp_down
+living_ac_mode:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_ac_mode
+living_ac_fan:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_ac_fan
+living_ac_economy:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_ac_economy
+living_ac_energysaver:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_ac_energysaver
+living_ac_swing:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_ac_swing
+living_ac_set_horizontal:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_ac_set_horizontal
+living_ac_set_vertical:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_ac_set_vertical

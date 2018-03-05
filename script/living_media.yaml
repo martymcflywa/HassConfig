@@ -1,0 +1,12 @@
+living_media_power_on:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_power
+    - service: switch.turn_on
+      entity_id: switch.living_amp_power
+living_media_power_off:
+  sequence: 
+    - service: switch.turn_off
+      entity_id: switch.living_tv_power
+    - service: switch.turn_off
+      entity_id: switch.living_amp_power

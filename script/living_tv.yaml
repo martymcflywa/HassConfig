@@ -1,0 +1,222 @@
+living_tv_power_on:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_power
+living_tv_power_off:
+  sequence:
+    - service: switch.turn_off
+      entity_id: switch.living_tv_power
+living_tv_chan_next:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_next
+living_tv_chan_previous:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_previous
+living_tv_vol_up:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_vol_up
+living_tv_vol_down:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_vol_down
+living_tv_vol_mute:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_vol_mute
+living_tv_hdmi:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_hdmi
+living_tv_hdmi_1:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_hdmi_1
+living_tv_hdmi_2:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_hdmi_2
+living_tv_hdmi_3:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_hdmi_3
+living_tv_dtv:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_dtv
+living_tv_chan_abc: # abchd 20
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_2
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_0
+living_tv_chan_abc_kids: # abc kids 22
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_2
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_2
+living_tv_chan_abc_me: # abc me 23
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_2
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_3
+living_tv_chan_abc_news: # abc news 24
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_2
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_4
+living_tv_chan_7: # 7hd 70
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_7
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_0
+living_tv_chan_:
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan
+living_tv_chan_7two: # 7two 72
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_7
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_2
+living_tv_chan_7mate: # 7mate 73
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_7
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_3
+living_tv_chan_7flix: # 7flix 76
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_7
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_6
+living_tv_chan_racing: # racing 78
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_7
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_8
+living_tv_chan_9: # 9hd 90
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_9
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_0
+living_tv_chan_9gem: # 9gem 92
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_9
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_2
+living_tv_chan_9go: # 9go 93 
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_9
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_3
+living_tv_chan_9life: # 9life 94 
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_9
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_4
+living_tv_chan_10: # 10hd 13 
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_1
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_3
+living_tv_chan_10eleven: # 10 eleven 11 
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_1
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_1
+living_tv_chan_10one: # 10 one 12
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_1
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_2
+living_tv_chan_sbs: # sbshd 30 
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_3
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_0
+living_tv_chan_sbs_viceland: # sbs viceland 31
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_3
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_1
+living_tv_chan_sbs_food: # sbs food 33
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_3
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_3
+living_tv_chan_nitv: # nitv 34
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_3
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_4
+living_tv_chan_wtv: # wtv 44
+  sequence:
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_4
+    - delay:
+      milliseconds: 0.5
+    - service: switch.turn_on
+      entity_id: switch.living_tv_chan_4
