@@ -28,6 +28,7 @@ script.living_tv_vol_down:
 script.living_tv_vol_mute:
   friendly_name: "Mute"
   icon: mdi:volume-mute
+  hidden: true
 script.living_tv_hdmi:
   friendly_name: "HDMI"
   icon: mdi:video-input-hdmi
@@ -52,38 +53,38 @@ script.living_tv_chan_abc_kids:
 script.living_tv_chan_abc_me:
   friendly_name: "ABC Me"
   icon: mdi:television-box
-script.living_tv_abc_news:
+script.living_tv_chan_abc_news:
   friendly_name: "ABC News"
   icon: mdi:television-box
 script.living_tv_chan_7:
-  friendly_name: "7HD"
+  friendly_name: "7 HD"
   icon: mdi:television-box
 script.living_tv_chan_7two:
-  friendly_name: "7two"
+  friendly_name: "7 Two"
   icon: mdi:television-box
 script.living_tv_chan_7mate:
-  friendly_name: "7mate"
+  friendly_name: "7 Mate"
   icon: mdi:television-box
 script.living_tv_chan_7flix:
-  friendly_name: "7flix"
+  friendly_name: "7 Flix"
   icon: mdi:television-box
 script.living_tv_chan_racing:
   friendly_name: "Racing"
   icon: mdi:television-box
 script.living_tv_chan_9:
-  friendly_name: "9HD"
+  friendly_name: "9 HD"
   icon: mdi:television-box
 script.living_tv_chan_9gem:
-  friendly_name: "9gem"
+  friendly_name: "9 Gem"
   icon: mdi:television-box
 script.living_tv_chan_9go:
-  friendly_name: "9go"
+  friendly_name: "9 Go"
   icon: mdi:television-box
 script.living_tv_chan_9life:
-  friendly_name: "9life"
+  friendly_name: "9 Life"
   icon: mdi:television-box
 script.living_tv_chan_10:
-  friendly_name: "10HD"
+  friendly_name: "10 HD"
   icon: mdi:television-box
 script.living_tv_chan_10eleven:
   friendly_name: "10 Eleven"
@@ -95,7 +96,10 @@ script.living_tv_chan_sbs:
   friendly_name: "SBS HD"
   icon: mdi:television-box
 script.living_tv_chan_sbs_viceland:
-  friendly_name: "SBS Viceland HD"
+  friendly_name: "SBS Viceland"
+  icon: mdi:television-box
+script.living_tv_chan_sbs_food:
+  friendly_name: "SBS Food"
   icon: mdi:television-box
 script.living_tv_chan_nitv:
   friendly_name: "SBS NITV"

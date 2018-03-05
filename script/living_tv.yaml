@@ -76,12 +76,6 @@ living_tv_chan_7: # 7hd 70
       entity_id: switch.living_tv_chan_7
     - service: switch.turn_on
       entity_id: switch.living_tv_chan_0
-living_tv_chan_:
-  sequence:
-    - service: switch.turn_on
-      entity_id: switch.living_tv_chan
-    - service: switch.turn_on
-      entity_id: switch.living_tv_chan
 living_tv_chan_7two: # 7two 72
   sequence:
     - service: switch.turn_on

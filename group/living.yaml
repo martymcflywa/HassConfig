@@ -19,6 +19,9 @@ living_tv_remote:
     - script.living_tv_power_on
     - script.living_tv_power_off
     - script.living_tv_hdmi
+    - script.living_tv_hdmi_1
+    - script.living_tv_hdmi_2
+    - script.living_tv_hdmi_3
     - script.living_tv_dtv
     - script.living_tv_chan_next
     - script.living_tv_chan_previous
@@ -39,12 +42,10 @@ living_tv_remote:
     - script.living_tv_chan_10one
     - script.living_tv_chan_sbs
     - script.living_tv_chan_sbs_viceland
+    - script.living_tv_chan_sbs_food
     - script.living_tv_chan_nitv
     - script.living_tv_chan_wtv
     - script.living_tv_chan_racing
-    - script.living_tv_hdmi_1
-    - script.living_tv_hdmi_2
-    - script.living_tv_hdmi_3
 living_amp_remote:
   name: "Living Amp"
   control: hidden
